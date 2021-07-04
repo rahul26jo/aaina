@@ -1,0 +1,32 @@
+---
+title: My interest in Data Analytics
+author: Rahul Jonnalagadda
+date: '2020-03-08'
+slug: my-interest-in-data-analytics
+categories:
+  - R
+  - Sports
+  - Data
+  - Analytics
+  - Interests
+  - Programming
+tags:
+  - R Markdown
+  - Sports Analytics
+  - Data
+  - Big data
+  - Data - driven decisions
+description: 'A post about my passion regarding data'
+---
+
+I am a huge soccer fan. Ever since I was a little kid, I loved the sport, whether it was playing with my team or watching european games on TV. Manchester United was among my first loves. Back then, I used to idolize the United Ronaldo, Rooney, Vidic, Scholes and basically everyone on that 2008 United team. 
+
+Today, I still love the sport and my team as much, if not more. I have watched them play live, but it would be a dream to do any sort of work for them.
+
+When I first started coding back in AP CS in high school, I didnt know what to do. I thought I wanted to create video games but after trying to make video games, I found it rather complicated and uninteresting. However, it was when we first started talking about this fancy term 'big data' and the different things we could do to and with it, that I realized where my coding interest lied. I felt comfortable analyzing data for my Python projects back in high school and wanted to pursue that at a higher level, in college.
+
+Fast forward to today, I am interning for a company named Ingredion in the summer. I will be an intern at their corporate HQ, where I will be using python to clean, analyze and read lots of data sets, and tableau, to present my findings. As of now, my manager has told me that he wants me to use data to help his team find efficient ways to improve the companys supply chain process. I am looking forward to working with their team over the summer.
+
+However, my dream would be to be a data analyst or hold some sort of front office position for a pro soccer team. I would love to help team performance and coaching methods improve by helping the training staff and players make data driven decisions. I have read about how the new wave of data analytics has actually helped soccer teams improve performance. For example, the Liverpool data team found that they could play more effectively, with a lower turnover rate, if they fodused more on their throw ins. So, their manager hired a throw in coach, which massively helped the teams flow. So, data analysis has proven to be succesful in sports and I hope to be a part of that industry soon.
+
+Thanks for reading!

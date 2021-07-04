@@ -1,0 +1,47 @@
+---
+title: STAT 385 Learning Progress
+author: Rahul Jonnalagadda
+date: '2020-03-08'
+slug: stat-385-learning-progress
+categories:
+  - R
+  - STAT
+  - Learning
+  - School
+tags:
+  - R Markdown
+  - R
+  - STAT 385
+description: 'A post about my journey in R and STAT 385'
+---
+
+
+
+<p>I signed up for STAT 385 as it was a requirement for my major. Before signing up for this class, I had found out that this class taught R, which made me pretty excited to take it. As an aspiring data analyst and someone with decent python exposure, I was looking forward to learning a new programming language that was mainly used to analyze data.</p>
+<p>The class started with some basics of R, which is an easy topic if you’ve experience with other languages. Since I knew Java and Python, the first week of class was a breeze, as it probably was for most people. We started out with some basic coding. The code below just reads and stores a CSV file, and we use the data from the file to help form our roulette function, which just simulates a round of roulette -</p>
+<pre class="r"><code>wheel &lt;- read.csv(&quot;https://nkha149.github.io/stat385-sp2020/files/data/roulette.csv&quot;)
+roulette &lt;- function(bet = 14) {
+  win_num &lt;- sample(x = 1:37, size = 1)
+  wheel[win_num, 1] == bet
+}</code></pre>
+<p>We moved on from learning about variables, to more complex data structures, like data frames and matrices. We also explored plotting different tyoes of graphs and adding features to them. Moreover, we covered different types of loops, computer speed with code(vectorized code is much more efficient!), learning more about github, R markdown and blogdown. Here is an example of a vectorized function that prints out names, from a list of given names, that are longer than 8 characters -</p>
+<pre class="r"><code>long_names_vec &lt;- function(names) {
+  return(names[nchar(names) &gt;= 8])
+}</code></pre>
+<p>Finally, with the help of all of those concepts, I am able to create a website and publish it. Hope you enjoyed my learning journey in this course so far and stay tuned!</p>
+<p>I went from doing this -</p>
+<pre class="r"><code>print(&quot;Hello World&quot;)</code></pre>
+<pre><code>## [1] &quot;Hello World&quot;</code></pre>
+<p>to this -</p>
+<pre class="r"><code># function that simulates sample means and variance from a poisson distribution
+# for various sample sizes and true lambdas
+sim_mean_var = function(sample_size = 50, true_lambda = 2) {
+  sim_sample = rpois(n = sample_size, lambda = true_lambda)
+  c(mean(sim_sample), var(sim_sample))
+}
+
+# generate sample means and variances
+set.seed(42)
+results = replicate(10000, sim_mean_var())
+sample_means = results[1, ]
+sample_variances = results[2, ]</code></pre>
