@@ -1,0 +1,59 @@
+baseURL = "https://rahuljonnalagadda.com"
+title = "Rahul Jonnalagadda"
+theme = "erblog"
+paginate = 3
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+
+[params]
+    author = "Rahul Jonnalagadda"
+    #logo = "/img/main/headshot 2020.jpg"
+    portrait = "/img/head.jpg"
+    bio = """
+    <p> Hi, I'm Rahul and this is my website! </p>
+    <br />
+    </p>
+    """
+    copyright = "Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved."
+
+
+[[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+
+# [[menu.main]]
+#     identifier = "zone"
+#     name = "Zone"
+#     url = "/zone/"
+#     weight = 10
+
+[[menu.footer]]
+    identifier = "home"
+    name = "home"
+    url = "/"
+    weight = 1
+
+[[menu.footer]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+[[menu.icon]]
+    url = "https://github.com/rahul26jo"
+    name = "github"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://www.linkedin.com/in/rahul-jonnalagadda-972922192/"
+    name = "linkedin"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://www.instagram.com/rahuljon21/?hl=en"
+    name = "instagram"
+    weight = 1
